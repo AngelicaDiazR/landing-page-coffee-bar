@@ -1,0 +1,80 @@
+/* reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*container*/
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+/*General Styles*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*header*/
+header{
+    background-color: rgb(15, 172, 164);
+    color:rgba(41, 38, 38, 0.979);
+    padding: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;   
+}
+.nav-list{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    align-items: center;   
+}
+.jumbotron p{
+    background-color: bisque;
+    text-align: center;
+}
+/*Menu*/
+.container-menu{
+    background-color: rgb(15, 172, 164);
+    color: black;
+    padding: 50px 0;
+    width: 100%;
+}
+.menu-titles{
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}    
+.options-container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product3 img{
+    width: 280px;
+}
+.product4 img{
+    width: 559px;
+}
+/*Aditionals*/
+.aditional{
+    background-color: beige(161, 56, 56, 0.219);
+    padding: 50px 0;
+}
+.aditional-elements{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.aditional-title p{
+    color: #000;
+    font-size: 45px;
+    text-align: center; 
+}
+@media screen and (min-width:240px) and (max-width:880px){
+ .options-container{
+    grid-template-columns: 1fr;
+ }   
+}
+ 
