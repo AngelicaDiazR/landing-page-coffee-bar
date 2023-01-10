@@ -77,4 +77,39 @@ nav{
     grid-template-columns: 1fr;
  }   
 }
- 
+/*footer*/
+footer{
+    margin: 50px 0px 20px;
+}
+.legal-links-box{
+    display: flex
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-between;
+    margin-botton:15px;
+}
+.legal-link-text{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s all ease;
+}
+.legal-link-text:focus{
+    outline:none;
+}
+.legal-link-text:hover{
+    color:#484848
+}
+.rrss-box{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.rrss-link{
+    padding: 2px;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+.rrss-link:hover{
+    background:#484848;
+}
